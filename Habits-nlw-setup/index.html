@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/shortcut-icon.png" type="image/png" />
+    <title>Habits</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/Group 2.png" alt="Logomarca aplicativo Habits" />
+
+      <button>
+        <img src="images/plus-red.png" alt="sinal de mais vermelho" />
+
+        <div>
+          Registrar o meu dia
+        </div>
+      </button>
+    </header>
+
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="run"><img src="images/run.png" alt="Emoji corrida"></div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="food">🍎</div>
+        <div class="habit" data-name="training"><img src="images/training.png" alt="Emoji treino"></div>
+        <div class="habit" data-name="sleep">💤</div>
+        <div class="habit" data-name="dogWalk"><img src="images/dogwalk.png" alt="Emoji passeio com pet"></div>
+        <div class="habit" data-name="guitar">🎸</div>
+        <div class="habit" data-name="read">📖</div>
+      </div>
+
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
+
+
+  </body>
+</html>
